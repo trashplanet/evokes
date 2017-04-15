@@ -98,3 +98,22 @@ footer .footer-title {
 	color: #fff;
 	line-height: 45px;
 }
+/* mobile */
+@media (max-width: 641px){
+	header .header-logo img {
+		height: 45px;
+	}
+	header .button {
+		margin: 0;
+		width: calc(50% - .618rem);
+	}
+	section#hero .title {
+		font-size: 3rem;
+	}
+	section#hero .tagline {
+		font-size: 1.618rem;
+	}
+	section .section-title {
+		font-size: 1.382rem;
+	}
+}
